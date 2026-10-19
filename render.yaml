@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: mlangue-php-app
+    env: php
+    buildCommand: ""
+    publishPath: public
+    plan: free
